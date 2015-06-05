@@ -18,3 +18,7 @@ http://dubiousdavid.github.io/monads
 ## Usage
 
 See tests for example usage.
+
+## Tests
+
+Run `lein midje`
