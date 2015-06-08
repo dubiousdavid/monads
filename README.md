@@ -8,7 +8,7 @@ Reader+Writer+Maybe, Writer+Either, Writer+Maybe, State+Either, State+Maybe.
 ## Installation
 
 ```clojure
-[com.2tothe8th/monads "0.1.0"]
+[com.2tothe8th/monads "0.2.0"]
 ```
 
 ## API Documentation
