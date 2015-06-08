@@ -1,4 +1,4 @@
-(defproject com.2tothe8th/monads "0.1.0"
+(defproject com.2tothe8th/monads "0.2.0"
   :description "Reader, Writer, State, Either, and Maybe monads."
   :url "https://github.com/dubiousdavid/monads"
   :license {:name "Eclipse Public License"

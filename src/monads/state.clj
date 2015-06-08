@@ -16,6 +16,12 @@
   []
   (fn [state] [state state]))
 
+(defn asks
+  "Apply f to the current state, and return the result.
+  State is unmodified."
+  [f]
+  (fn [state] [(f state) state]))
+
 (defn set-state
   "Overwrite the current state."
   [state]
