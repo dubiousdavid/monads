@@ -114,6 +114,8 @@ Below is a sampling of what is available with this library. There are lots more 
 ### Writer
 
 ```clojure
+(use 'monads.writer)
+
 (defn plus-one [x]
   [(inc x) [(str "You passed " x ".")]])
 
